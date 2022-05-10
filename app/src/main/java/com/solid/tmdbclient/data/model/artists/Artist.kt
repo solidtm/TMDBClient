@@ -1,15 +1,20 @@
-package com.solid.tmdbclient.data
+package com.solid.tmdbclient.data.model.artists
 
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
 //remember to make the properties null safe using ?
+//using the same class as Entity for DB
+
+@Entity(tableName = "popular_artists")
 data class Artist(
 
+    @PrimaryKey
     @SerializedName("id")
     val id: Int,
-    @SerializedName("known_for")
-    val knownFor: List<KnownFor>?,
+
     @SerializedName("name")
     val name: String?,
     @SerializedName("popularity")
