@@ -1,11 +1,13 @@
 package com.solid.tmdbclient.data.db
 
+import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.solid.tmdbclient.data.model.artists.Artist
 import com.solid.tmdbclient.data.model.tv_show.TvShow
 
+@Dao
 interface ArtistsDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
@@ -15,5 +17,5 @@ interface ArtistsDao {
     suspend fun deleteAllArtists()
 
     @Query("SELECT * FROM popular_artists")
-    suspend fun getArtists(movies: List<Artist>)
+    suspend fun getArtists(): List<Artist>
 }
