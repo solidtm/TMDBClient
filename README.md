@@ -1,4 +1,4 @@
-# TMDBClient
+# TMDBClient: A Movie, TV Shows and Celebrity Update Mobile App
 ##Movies
 ![Movie: Fantastic Beasts](readme_picx/fantastic-beasts.jpeg)
 ![Movie: The lost City](readme_picx/lost-city.jpeg)
