@@ -9,7 +9,7 @@ import retrofit2.http.Query
 
 interface TMDBService {
 
-    //function to get list of popular movies, tv shows and artists
+    //define function to get list of popular movies, tv shows and artists
     //(we will use coroutines in the background, so suspend functions)
 
     @GET("movie/popular")
