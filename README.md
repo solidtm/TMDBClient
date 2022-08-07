@@ -29,14 +29,14 @@ This is holds any logic or definition for dependency injection.
 ## Stack
 Retrofit, Room, Dagger2, Kotlin Coroutines and other Android Jetpack libraries
 
-##Movies
+##Movies  
 ![Movie: Fantastic Beasts](readme_picx/fantastic-beasts.jpeg)
 ![Movie: The lost City](readme_picx/lost-city.jpeg)
 
-##TvShows
+##TvShows  
 ![TvShow: Peaky Blinders](readme_picx/peaky.jpeg)
 ![TvShow: Stranger things](readme_picx/stranger-things.jpeg)
 
-##Celebrities
+##Celebrities  
 ![Celebrity: Jeniffer Connelly](readme_picx/jennifer-connelly.jpeg)
 ![Celebrity: Tom Holland](readme_picx/tom-holland.jpeg)
